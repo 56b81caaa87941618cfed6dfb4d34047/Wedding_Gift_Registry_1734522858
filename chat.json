@@ -6,5 +6,56 @@
         "source": "base_assistant",
         "content": "Welcome to your new project! I can help you edit it however you want. What would you like to do?",
         "metadata": {}
+    },
+    {
+        "id": "a030533f-c1bd-4260-82e4-9fa7f92ae6ec",
+        "timestamp": "2024-12-18T11:55:20.773640Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "change the background to white",
+        "metadata": {
+            "component_id": "Hero1734522861"
+        }
+    },
+    {
+        "id": "7953231b-74bb-4275-9531-1a238e232248",
+        "timestamp": "2024-12-18T11:55:21.801740Z",
+        "role": "tool_call",
+        "source": "base_assistant",
+        "content": null,
+        "metadata": {
+            "id": "call_VymKMo6sWC8CcsMjS9cdmUX1",
+            "function": {
+                "arguments": "{\"component_id\": \"Hero1734522861\", \"change_description\": \"Change the background color to white\", \"acknowledgement_message\": \"Changing the background color to white\"}",
+                "name": "EditFrontendComponent"
+            },
+            "type": "function"
+        }
+    },
+    {
+        "id": "eaa787b1-ac08-4769-bd04-97f74a6de789",
+        "timestamp": "2024-12-18T11:55:21.817697Z",
+        "role": "assistant",
+        "source": "tool:EditFrontendComponent",
+        "content": "Changing the background color to white",
+        "metadata": {}
+    },
+    {
+        "id": "9cad22ba-fc94-4c6f-90d3-3e9bf15a6372",
+        "timestamp": "2024-12-18T11:55:27.602810Z",
+        "role": "tool_result",
+        "source": "EditFrontendComponent",
+        "content": "",
+        "metadata": {
+            "tool_call_id": "call_VymKMo6sWC8CcsMjS9cdmUX1"
+        }
+    },
+    {
+        "id": "cab17984-c2ca-491a-a401-48964e807057",
+        "timestamp": "2024-12-18T11:55:28.170787Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "I've changed the background color to white. Anything else you'd like to modify?",
+        "metadata": {}
     }
 ]
