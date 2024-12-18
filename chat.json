@@ -75,5 +75,15 @@
         "source": "base_assistant",
         "content": "How about adding a catchy image or a welcoming message to the Hero section? We could also style it further with some attractive fonts or animations. What do you think?",
         "metadata": {}
+    },
+    {
+        "id": "48664d96-a8db-4ab0-a7d9-22f686071998",
+        "timestamp": "2024-12-18T12:03:19.454405Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "Do that",
+        "metadata": {
+            "component_id": "Hero1734522861"
+        }
     }
 ]
