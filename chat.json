@@ -177,5 +177,15 @@
         "source": "base_assistant",
         "content": "To show a table of guests in the Header component, we would need to either have data about the wedding guests already or set up a way to capture it. Unfortunately, due to the structure of your request, I'm unable to directly replace the current content with a table since it does not exist as part of pre-existing structures.\n\nWould you like to create a new query to fetch this data from a database, or do you have some data ready? If not, we might need to script in various parts to support this. Let me know how you want to proceed!",
         "metadata": {}
+    },
+    {
+        "id": "6f8e88e0-b922-4b1a-8699-a250a210743a",
+        "timestamp": "2024-12-19T13:16:43.629329Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "Just make up some placeholder data",
+        "metadata": {
+            "component_id": "Header1734522861"
+        }
     }
 ]
