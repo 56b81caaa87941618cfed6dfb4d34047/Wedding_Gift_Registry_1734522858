@@ -330,5 +330,15 @@
         "source": "base_assistant",
         "content": "The table cells are now editable for demonstration purposes, though changes won't be saved. Do you need any other modifications?",
         "metadata": {}
+    },
+    {
+        "id": "3a9475ac-5ec9-4274-87e6-870cd461557d",
+        "timestamp": "2024-12-19T13:20:45.807684Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "The image used in this component is bad. Generate a new image of wedding rings and replace",
+        "metadata": {
+            "component_id": "Hero1734522861"
+        }
     }
 ]
