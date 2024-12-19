@@ -36,28 +36,28 @@ const GuestTable: React.FC = () => {
           </thead>
           <tbody>
             <tr className="border-t hover:bg-gray-50">
-              <td className="p-4">John Doe</td>
-              <td className="p-4">Invited</td>
-              <td className="p-4">2023-05-10</td>
-              <td className="p-4">Yes</td>
+              <td className="p-4 cursor-pointer hover:bg-blue-50" contentEditable>John Doe</td>
+              <td className="p-4 cursor-pointer hover:bg-blue-50" contentEditable>Invited</td>
+              <td className="p-4 cursor-pointer hover:bg-blue-50" contentEditable>2023-05-10</td>
+              <td className="p-4 cursor-pointer hover:bg-blue-50" contentEditable>Yes</td>
             </tr>
             <tr className="border-t hover:bg-gray-50">
-              <td className="p-4">Jane Smith</td>
-              <td className="p-4">Invited</td>
-              <td className="p-4">2023-05-11</td>
-              <td className="p-4">No</td>
+              <td className="p-4 cursor-pointer hover:bg-blue-50" contentEditable>Jane Smith</td>
+              <td className="p-4 cursor-pointer hover:bg-blue-50" contentEditable>Invited</td>
+              <td className="p-4 cursor-pointer hover:bg-blue-50" contentEditable>2023-05-11</td>
+              <td className="p-4 cursor-pointer hover:bg-blue-50" contentEditable>No</td>
             </tr>
             <tr className="border-t hover:bg-gray-50">
-              <td className="p-4">Emily Davis</td>
-              <td className="p-4">Invited</td>
-              <td className="p-4">2023-05-15</td>
-              <td className="p-4">Yes</td>
+              <td className="p-4 cursor-pointer hover:bg-blue-50" contentEditable>Emily Davis</td>
+              <td className="p-4 cursor-pointer hover:bg-blue-50" contentEditable>Invited</td>
+              <td className="p-4 cursor-pointer hover:bg-blue-50" contentEditable>2023-05-15</td>
+              <td className="p-4 cursor-pointer hover:bg-blue-50" contentEditable>Yes</td>
             </tr>
             <tr className="border-t hover:bg-gray-50">
-              <td className="p-4">Michael Brown</td>
-              <td className="p-4">Invited</td>
-              <td className="p-4">2023-05-16</td>
-              <td className="p-4">No</td>
+              <td className="p-4 cursor-pointer hover:bg-blue-50" contentEditable>Michael Brown</td>
+              <td className="p-4 cursor-pointer hover:bg-blue-50" contentEditable>Invited</td>
+              <td className="p-4 cursor-pointer hover:bg-blue-50" contentEditable>2023-05-16</td>
+              <td className="p-4 cursor-pointer hover:bg-blue-50" contentEditable>No</td>
             </tr>
           </tbody>
         </table>
