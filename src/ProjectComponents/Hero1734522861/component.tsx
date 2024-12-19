@@ -11,7 +11,7 @@ const Hero: React.FC = () => {
           <p className="text-xl mb-6">Create and manage your perfect wedding gift list with ease, ensuring your special day is filled with meaningful presents from loved ones.</p>
         </div>
         <div className="w-full max-w-2xl">
-          <img src={`https://raw.githubusercontent.com/56b81caaa87941618cfed6dfb4d34047/Wedding_Gift_Registry_1734522858/${window.MI_PROJECT_GIT_REF || 'main'}/src/assets/images/84d2d765da4042f09229837da7c6e63d.jpeg`} alt="Wedding Gift List" className="w-full h-auto rounded-lg shadow-md" />
+          <img src={`https://raw.githubusercontent.com/56b81caaa87941618cfed6dfb4d34047/Wedding_Gift_Registry_1734522858/${window.MI_PROJECT_GIT_REF || 'main'}/src/assets/images/c25832c7a2d94469aff0aaa4bd99891f.jpeg`} alt="Wedding Gift List" className="w-full h-auto rounded-lg shadow-md" />
         </div>
       </div>
     </div>
