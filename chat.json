@@ -534,5 +534,15 @@
         "source": "base_assistant",
         "content": "I've updated the RSVP form with a wedding and flowery theme, adding floral accents and elegant font styles. Would you like any further modifications?",
         "metadata": {}
+    },
+    {
+        "id": "25953725-1ac6-459b-8fdf-c5b56dda2053",
+        "timestamp": "2024-12-19T16:56:15.299497Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "Change the title to \"Celebrate our love by spending money\"",
+        "metadata": {
+            "component_id": "Hero1734522861"
+        }
     }
 ]
