@@ -159,5 +159,15 @@
         "source": "base_assistant",
         "content": "I have added an image of elegant wedding rings and a welcoming message to the Hero section. Anything else you would like to do?",
         "metadata": {}
+    },
+    {
+        "id": "6c024c8d-c873-4ec3-b7c5-73e1735ce9f0",
+        "timestamp": "2024-12-19T13:16:09.386797Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "Change this entirely to a component that shows a table of guests to the wedding",
+        "metadata": {
+            "component_id": "Header1734522861"
+        }
     }
 ]
