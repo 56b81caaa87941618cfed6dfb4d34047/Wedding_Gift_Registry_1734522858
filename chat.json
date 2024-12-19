@@ -159,5 +159,23 @@
         "source": "base_assistant",
         "content": "I have added an image of elegant wedding rings and a welcoming message to the Hero section. Anything else you would like to do?",
         "metadata": {}
+    },
+    {
+        "id": "6c024c8d-c873-4ec3-b7c5-73e1735ce9f0",
+        "timestamp": "2024-12-19T13:16:09.386797Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "Change this entirely to a component that shows a table of guests to the wedding",
+        "metadata": {
+            "component_id": "Header1734522861"
+        }
+    },
+    {
+        "id": "78a2046f-4a3d-4fd1-bd06-ac03734837db",
+        "timestamp": "2024-12-19T13:16:13.907341Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "To show a table of guests in the Header component, we would need to either have data about the wedding guests already or set up a way to capture it. Unfortunately, due to the structure of your request, I'm unable to directly replace the current content with a table since it does not exist as part of pre-existing structures.\n\nWould you like to create a new query to fetch this data from a database, or do you have some data ready? If not, we might need to script in various parts to support this. Let me know how you want to proceed!",
+        "metadata": {}
     }
 ]
