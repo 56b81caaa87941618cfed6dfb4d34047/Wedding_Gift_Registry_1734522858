@@ -228,5 +228,15 @@
         "source": "base_assistant",
         "content": "I've replaced the content in the Header component with a table displaying placeholder data for wedding guests. Would you like to make any further adjustments?",
         "metadata": {}
+    },
+    {
+        "id": "fc650e32-f99d-44e4-9c59-41af1060fc5b",
+        "timestamp": "2024-12-19T13:18:25.449326Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "Add a column with whether there is a +1",
+        "metadata": {
+            "component_id": "Header1734522861"
+        }
     }
 ]
