@@ -636,5 +636,48 @@
         "source": "base_assistant",
         "content": "The background of the Hero section is now a soft pink. What else would you like to do?",
         "metadata": {}
+    },
+    {
+        "id": "2e665283-aa80-4a1d-9923-a9ce56dd38cc",
+        "timestamp": "2025-01-02T11:56:13.438914Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "Undo that, I don't like it",
+        "metadata": {
+            "component_id": "Hero1734522861"
+        }
+    },
+    {
+        "id": "3281100a-99ea-4458-a26b-ec2e0194ff31",
+        "timestamp": "2025-01-02T11:56:16.601130Z",
+        "role": "tool_call",
+        "source": "base_assistant",
+        "content": null,
+        "metadata": {
+            "id": "call_FpMCzATOVlvdk2AtX4fm8KuN",
+            "function": {
+                "arguments": "{\"component_id\": \"Hero1734522861\"}",
+                "name": "UndoComponentChanges"
+            },
+            "type": "function"
+        }
+    },
+    {
+        "id": "d748fff3-90a3-4b66-be9d-f3fbbd40f1f1",
+        "timestamp": "2025-01-02T11:56:16.752596Z",
+        "role": "tool_result",
+        "source": "UndoComponentChanges",
+        "content": "Success: Undo changes to component",
+        "metadata": {
+            "tool_call_id": "call_FpMCzATOVlvdk2AtX4fm8KuN"
+        }
+    },
+    {
+        "id": "0556446d-e672-44b6-9923-15c68317e3ad",
+        "timestamp": "2025-01-02T11:56:18.904874Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "The background change has been undone. How else can I assist you?",
+        "metadata": {}
     }
 ]
