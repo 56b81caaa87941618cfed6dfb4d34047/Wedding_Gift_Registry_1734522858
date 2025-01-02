@@ -3,7 +3,7 @@ import React from 'react';
 const Hero: React.FC = () => {
   
   return (
-    <div className="bg-white py-16 text-black w-full h-full">
+    <div className="bg-pink-100 py-16 text-black w-full h-full">
       <div className="container mx-auto px-4 flex flex-col items-center h-full">
         <div className="text-center mb-8">
           <h2 className="text-3xl font-serif italic text-gray-700 mb-4">Welcome to Our Wedding Gift Registry!</h2>
