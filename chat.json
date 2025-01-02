@@ -636,5 +636,15 @@
         "source": "base_assistant",
         "content": "The background of the Hero section is now a soft pink. What else would you like to do?",
         "metadata": {}
+    },
+    {
+        "id": "2e665283-aa80-4a1d-9923-a9ce56dd38cc",
+        "timestamp": "2025-01-02T11:56:13.438914Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "Undo that, I don't like it",
+        "metadata": {
+            "component_id": "Hero1734522861"
+        }
     }
 ]
